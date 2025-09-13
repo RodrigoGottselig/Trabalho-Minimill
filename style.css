@@ -1,0 +1,112 @@
+
+@font-face {
+  font-family: 'Calibre Web';
+  src: url('../fonts/CalibreWeb-Regular.woff2') format('woff2'),
+       url('../fonts/CalibreWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #3399FF;
+  color: white;
+  font-family: 'Calibre Web', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.minimill-logo svg {
+  width: 100px;
+  height: auto;
+  fill: white;
+}
+
+.menu a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.intro {
+  padding: 200px 0;
+}
+S
+.intro-text {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0 auto 40px auto;
+}
+
+.scroll-down-arrow {
+  font-size: 2rem;
+}
+
+.project-row {
+  padding: 180px 0;
+}
+
+.project-row h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.project-row p {
+  text-align: left;
+  font-size: 1.1rem;
+  max-width: 450px;
+  opacity: 0.9;
+}
+
+.view-project-link a::after {
+  content: '  →';
+  transition: transform 0.2s ease-out;
+  display: inline-block;
+}
+
+.view-project-link a:hover::after {
+  transform: translateX(5px); 
+}
+
+.partners-title {
+  font-size: 2rem;
+  margin-bottom: 60px;
+   padding: 120px 0;
+}
+
+.partner-logo {
+  max-width: 140px;
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.cta p {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 120px 0;
+}
+
+.footer {
+  font-size: 0.9rem;
+}
+
+.footer-logo svg{
+    width: 100px;
+    height: auto;
+    fill: white;
+}
+
+.footer p {
+  opacity: 0.8;
+}
